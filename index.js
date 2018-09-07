@@ -34,7 +34,7 @@ bot.on('message', msg => {
             msg.reply('Je suis d\'accord avec toi.')
     }
     if (msg.content === prefix + "site"){
-        msg.channel.send("https://alexpgm.000webhostapp.com/")
+        msg.channel.send("http://magicfury.fr/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
 
