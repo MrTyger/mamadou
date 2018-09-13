@@ -11,7 +11,7 @@ bot.on('ready', function () {
 
 bot.on('guildMemberAdd', member => {
     member.createDM().then(channel => {
-        return channel.send('Bienvenue sur le serveur MagicFury' + member.displayName)
+        return channel.send('Wesh Wesh' + member.displayName)
         console.log(`${member.displayName} à rejoind le serveur.`)
     }).catch(console.error)
 });
@@ -30,8 +30,8 @@ bot.on('message', msg => {
     if (msg.content === "bonjour"){
         msg.reply("Heureux de te revoir parmis nous.")
     }
-    if (msg.content.match(/salut/i)) {
-            msg.reply('Je suis d\'accord avec toi.')
+    if (msg.content.match(/e/i)) {
+            msg.reply('Ok.')
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("http://magicfury.fr/")
