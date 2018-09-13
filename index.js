@@ -37,7 +37,8 @@ bot.on('message', msg => {
             msg.reply('Hooo ouiii !.')
     }
     if (msg.content.match(/test/i)) {
-            msg.channel.send('Ty gueule' + member.displayName)
+            member.createDM().then(channel => {
+        return channel.send('Ty Gueule' + member.displayName)
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("http://magicfury.fr/")
