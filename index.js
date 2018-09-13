@@ -36,10 +36,6 @@ bot.on('message', msg => {
     if (msg.content.match(/je suis idiot/i)) {
             msg.reply('Hooo ouiii !.')
     }
-    if (msg.content.match(/test/i)) {
-            member.createDM().then(channel => {
-        return channel.send('Ty Gueule' + member.displayName)
-    }
     if (msg.content === prefix + "site"){
         msg.channel.send("http://magicfury.fr/")
         console.log("Une personne a demandé pour aller sur ton site.")
