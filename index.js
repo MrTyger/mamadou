@@ -31,7 +31,7 @@ bot.on('message', msg => {
         msg.reply("Heureux de te revoir parmis nous.")
     }
     if (msg.content.match(/e/i)) {
-            msg.reply('Ok.')
+            msg.reply('Heuu Ok.')
     }
     if (msg.content.match(/je suis idiot/i)) {
             msg.reply('Hoooo que ouiii !.')
