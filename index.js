@@ -31,10 +31,10 @@ bot.on('message', msg => {
         msg.reply("Heureux de te revoir parmis nous.")
     }
     if (msg.content.match(/e/i)) {
-            msg.reply('Heuu Ok.')
+            msg.reply('Ok.')
     }
     if (msg.content.match(/je suis idiot/i)) {
-            msg.reply('Hoooo que ouiii !.')
+            msg.reply('Hooo ouiii !.')
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("http://magicfury.fr/")
