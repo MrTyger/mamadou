@@ -34,7 +34,7 @@ bot.on('message', msg => {
             msg.reply('Ok.')
     }
     if (msg.content.match(/je suis idiot/i)) {
-            msg.reply('Je suis d'/accord avec toi xD')
+            msg.reply('Hoooo que ouiii !.')
     }
     if (msg.content === prefix + "site"){
         msg.channel.send("http://magicfury.fr/")
