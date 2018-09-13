@@ -30,8 +30,8 @@ bot.on('message', msg => {
     if (msg.content === "bonjour"){
         msg.reply("Heureux de te revoir parmis nous.")
     }
-    if (msg.content.match(/e/i)) {
-            msg.reply('Ok.')
+    if (msg.content.match(/Dieu/i)) {
+            msg.reply('MrTyger?.')
     }
     if (msg.content.match(/je suis idiot/i)) {
             msg.reply('Hooo ouiii !.')
