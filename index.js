@@ -6,7 +6,7 @@ const prefix = ("?");
 
 bot.on('ready', function () {
     console.log("Je suis prêt à être utilisé.")
-    bot.user.setActivity('Niquer des méres avec bob leponge carré').catch(console.error)
+    bot.user.setActivity('Niquer des méres avec Bob L'éponge').catch(console.error)
 });
 
 bot.on('guildMemberAdd', member => {
