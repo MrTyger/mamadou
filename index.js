@@ -34,7 +34,7 @@ bot.on('message', msg => {
             msg.reply('MrTyger?.')
     }
     if (msg.content.match(/Dieu/i)) {
-            msg.reply('Elbananaa?.')
+            msg.reply('ElBananaa?.')
     }
     if (msg.content.match(/je suis idiot/i)) {
             msg.reply('Hooo ouiii !.')
