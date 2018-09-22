@@ -39,8 +39,8 @@ bot.on('message', msg => {
     if (msg.content.match(/je suis idiot/i)) {
             msg.reply('Hooo ouiii !.')
     }
-    if (msg.content === prefix + "site"){
-        msg.channel.send("http://magicfury.fr/")
+    if (msg.content.match(/Test/i)) {
+        msg.channel.send("https://magicfury.fr/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
 
