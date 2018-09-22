@@ -38,7 +38,6 @@ bot.on('message', msg => {
             msg.reply('Hooo ouiii !')
     }
     if (msg.content.match(/Site/i)) {
-        await client.delete_message(message)
         msg.channel.send("https://magicfury.fr/")
         console.log("Une personne a demandé pour aller sur ton site.")
     }
