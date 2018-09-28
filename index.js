@@ -40,10 +40,6 @@ bot.on('message', msg => {
             member.createDM().then(channel => {
         return channel.send('Ty Gueule' + member.displayName)
     }
-    if (msg.content === prefix + "site"){
-        msg.channel.send("http://magicfury.fr/")
-        console.log("Une personne a demandé pour aller sur ton site.")
-    }
 
 });
 
